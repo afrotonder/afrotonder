@@ -34,10 +34,12 @@ body.theme {
 body {
   display: none;
   color: var(--mainColor);
-  font-family: 'Rex-Bold', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Fondamento', 'Arial Narrow', Arial, sans-serif;
+
+  /* font-family: 'Rex-Bold', 'Arial Narrow', Arial, sans-serif; */
   /* // font-family: 'Rex-Bold', 'Arial Narrow', Arial, sans-serif;
   // background-color: rgb(64, 65, 64) ; */
-  /* font-family: "Creepster", "Arial Narrow", Arial, sans-serif; */
+  /* font-family: "UnifrakturMaguntia", "Arial Narrow", Arial, sans-serif; */
 
   background-color: #C9D8B6;
   width: 100%;
@@ -164,6 +166,10 @@ body {
     margin-bottom: -12%;
   }
 
+  .jobList {
+    width:auto;
+      margin: auto;
+  }
   #avatar {
     margin: 2em auto 2em auto;
     border-radius: 50%;
