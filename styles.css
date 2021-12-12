@@ -154,6 +154,11 @@ body {
     overflow-x: hidden;
     position: relative;
   }
+  #feats {
+    margin-top: 0;
+  
+  }
+
   .fa {
     margin-top: 7px;
   }
@@ -180,7 +185,7 @@ body {
   .jobList {
     width:auto;
       margin: auto;
-      margin-top: 2%;
+      /* margin-top: 2%; */
 
   }
   #avatar {
