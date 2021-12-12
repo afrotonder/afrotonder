@@ -35,7 +35,7 @@ body {
   display: none;
   color: var(--mainColor);
     font-family: 'Fondamento', 'Arial Narrow', Arial, sans-serif;
-  font-size: 18px;
+  /* font-size: 18px; */
   /* font-family: 'Rex-Bfold', 'Arial Narrow', Arial, sans-serif; */
   /* // font-family: 'Rex-Bold', 'Arial Narrow', Arial, sans-serif;
   // background-color: rgb(64, 65, 64) ; */
