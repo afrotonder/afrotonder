@@ -17,13 +17,12 @@ document
 
 document.getElementById("meet").innerHTML = `🍕 I'm currently working as a:
                                               <ul class="jobList">
-                                                <li class="job">software developer @ <a href="https://tuchequera.com" target="_blank">${job1}</a> </li>
+                                                <li class="job">Full Stack Developer @ <a href="https://tuchequera.com" target="_blank">${job1}</a> </li>
                                                 <li class="job">Business Intelligence Analyst @<a href="https://apshealth.com/" taget="_blank">${job2}</a>. </li>
                                               </ul>`
                                                
                                                ;
 // ---------- END SET AVATAR DATA ----------
-console.log('');
 
 // ---------- ICON DATA----------
 let imgs = [
@@ -80,7 +79,7 @@ let tools = [
 // set/ renderfooter
 for (let img of imgs) {
   let elem = document.createElement("a");
-    console.log('o,g ', img);
+
   elem.setAttribute("href", img.url);
   elem.setAttribute("target", "_blank");
   elem.setAttribute("class", "toolIcon");
@@ -99,7 +98,7 @@ for (let img of imgs) {
 
 // set/render tools
 for (let tool of tools) {
-    console.log('what what')
+
   let elem = document.createElement("div");
 
   elem.setAttribute("class", "tool-icons");

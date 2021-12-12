@@ -4,7 +4,7 @@
 }
 
 html {
-  cursor: url("../assets/queen.png"), auto;
+  cursor: url("../images/queen.png"), auto;
   width: 99%;
   overflow-x: hidden;
 }
@@ -284,15 +284,7 @@ body {
 }
 /* // --------------- END KEYFRAMES --------------- */
 
-@font-face {
-  font-family: Rex-Light;
-  /* src: url("assets/Rex-Light.eot"); */
-  src: 
-  /* url("assets/Rex-Light.eot?#iefix") format("embedded-opentype"),
-    url("assets/Rex-Light.woff2") format("woff2"),
-    url("assets/Rex-Light.woff") format("woff"), */
-    url("../assets/Rex-Light.ttf") format("truetype");
-}
+
 
 @font-face {
   font-family: Rex-Bold;
@@ -304,22 +296,4 @@ body {
     url("../assets/Rex-Bold.ttf") format("truetype");
 }
 
-@font-face {
-  font-family: Creepster;
-  /* src: url("assets/Creepster-Regular.eot"); */
-  src: 
-  /* url("assets/Creepster-Regular.eot?#iefix") format("embedded-opentype"),
-    url("assets/Creepster-Regular.woff2") format("woff2"),
-    url("assets/Creepster-Regular.woff") format("woff"), */
-    url("../assets/Creepster-Regular.ttf") format("truetype");
-}
 
-@font-face {
-  font-family: Monoton;
-  /* src: url("assets/Monoton-Regular.eot"); */
-  src:
-   /* url("assets/Monoton-Regular.eot?#iefix") format("embedded-opentype"),
-    url("assets/Monoton-Regular.woff2") format("woff2"),
-    url("assets/Monoton-Regular.woff") format("woff"), */
-    url("../assets/Monoton-Regular.ttf") format("truetype");
-}
