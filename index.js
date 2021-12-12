@@ -15,7 +15,7 @@ document
   );
 
 
-document.getElementById("meet").innerHTML = `🍕 I'm currently working as a:
+document.getElementById("meet").innerHTML = `🍕 I'm currently working as a: 
                                               <ul class="jobList">
                                                 <li class="job">Full Stack Developer @<a href="https://tuchequera.com" target="_blank">${job1}</a> </li>
                                                 <li class="job">Business Intelligence Analyst @<a href="https://apshealth.com/" taget="_blank">${job2}</a>. </li>

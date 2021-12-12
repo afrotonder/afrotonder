@@ -35,8 +35,8 @@ body {
   display: none;
   color: var(--mainColor);
     font-family: 'Fondamento', 'Arial Narrow', Arial, sans-serif;
-
-  /* font-family: 'Rex-Bold', 'Arial Narrow', Arial, sans-serif; */
+  font-size: 18px;
+  /* font-family: 'Rex-Bfold', 'Arial Narrow', Arial, sans-serif; */
   /* // font-family: 'Rex-Bold', 'Arial Narrow', Arial, sans-serif;
   // background-color: rgb(64, 65, 64) ; */
   /* font-family: "UnifrakturMaguntia", "Arial Narrow", Arial, sans-serif; */
@@ -46,6 +46,7 @@ body {
   overflow-x: hidden;
   position: relative;
   text-align: center;
+  
 }
 
 #avatar {
@@ -58,6 +59,10 @@ body {
 
 .job {
   /* color: #57837B ; */
+}
+
+.dark {
+  font-weight: bold;
 }
 
 .header-text {
@@ -122,6 +127,7 @@ body {
 .jobList {
   width: 25%;
     margin: auto;
+    margin-top: 1%;
 }
 
 #tools {
@@ -129,6 +135,11 @@ body {
   flex-direction: row;
   justify-content: center;
 } 
+
+#feats {
+  margin-top: 1%;
+
+}
 
 @media only screen and (max-width: 600px) {
   /* //       .bats:hover {
@@ -169,6 +180,8 @@ body {
   .jobList {
     width:auto;
       margin: auto;
+      margin-top: 2%;
+
   }
   #avatar {
     margin: 2em auto 2em auto;
@@ -270,6 +283,15 @@ body {
   font-size: 8px;
 }
 
+
+.footer {
+  bottom: 0;
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+}
 /* // --------------- KEYFRAMES --------------- */
 @keyframes shake {
   0% {
