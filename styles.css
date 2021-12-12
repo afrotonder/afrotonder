@@ -4,7 +4,7 @@
 }
 
 html {
-  cursor: url("../images/queen.png"), auto;
+  cursor: url("/images/queen.png"), auto;
   width: 99%;
   overflow-x: hidden;
 }
@@ -293,7 +293,7 @@ body {
   /* url("assets/Rex-BOld.eot?#iefix") format("embedded-opentype"),
     url("assets/Rex-Bold.woff2") format("woff2"),
     url("assets/Rex-Bold.woff") format("woff"), */
-    url("../assets/Rex-Bold.ttf") format("truetype");
+    url("./assets/Rex-Bold.ttf") format("truetype");
 }
 
 
