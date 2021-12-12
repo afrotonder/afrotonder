@@ -1,6 +1,8 @@
 :root {
-  --bg: #C9D8B6 ;
-  --mainColor: #515E63;
+  --bg:  #4D4646;
+  --mainColor: #7FCD91;
+  --linkColor: #F5EAEA;
+  --lightLinkColor: lightgreen ;
 }
 
 html {
@@ -18,11 +20,11 @@ header {
 }
 
 body a:link {
-  color: green;
+  color: var(--linkColor);
 }
 
 body a:visited {
-  color: purple;
+  color: var(--lightLinkColor);
 }
 
 body.theme {
@@ -32,16 +34,14 @@ body.theme {
   font-size: 14px;
 }
 body {
+  margin-left: auto;
+  margin-right: auto;
   display: none;
   color: var(--mainColor);
-    font-family: 'Fondamento', 'Arial Narrow', Arial, sans-serif;
-  /* font-size: 18px; */
-  /* font-family: 'Rex-Bfold', 'Arial Narrow', Arial, sans-serif; */
-  /* // font-family: 'Rex-Bold', 'Arial Narrow', Arial, sans-serif;
-  // background-color: rgb(64, 65, 64) ; */
-  /* font-family: "UnifrakturMaguntia", "Arial Narrow", Arial, sans-serif; */
+  font-family: 'Share Tech', 'Arial Narrow', Arial, sans-serif;
+  
 
-  background-color: #C9D8B6;
+  background-color: var(--bg);
   width: 100%;
   overflow-x: hidden;
   position: relative;
@@ -55,11 +55,9 @@ body {
   width: 13em;
   position: relative;
   top: 50%;
+  border: 3px solid var(--lightLinkColor);
 }
 
-.job {
-  /* color: #57837B ; */
-}
 
 .dark {
   font-weight: bold;
@@ -127,7 +125,7 @@ body {
 .jobList {
   width: 25%;
     margin: auto;
-    margin-top: 1%;
+    margin-top: 0%;
 }
 
 #tools {
@@ -185,7 +183,7 @@ body {
   .jobList {
     width:auto;
       margin: auto;
-      /* margin-top: 2%; */
+      margin-top: 10px;
 
   }
   #avatar {
