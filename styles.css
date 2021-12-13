@@ -3,6 +3,7 @@
   --mainColor: #7FCD91;
   --linkColor: #F5EAEA;
   --lightLinkColor: lightgreen ;
+  --lightText: white ;
 }
 
 html {
@@ -47,6 +48,10 @@ body {
   position: relative;
   text-align: center;
   
+}
+
+#uname {
+  color: var(--lightText) ;
 }
 
 #avatar {
@@ -201,8 +206,8 @@ body {
     text-align: center;
   }
   #uname {
-    color: white;
-    font-style: italic;
+    color: var(--lightText);
+    /* font-style: italic; */
     font-size: 25px;
     text-align: center;
     margin-top: 1px;
@@ -274,6 +279,7 @@ body {
 
   .footer-text {
     font-size: 10px;
+    color: var(--lightText);
   }
 }
 /* END OF MEDIA QUERY */

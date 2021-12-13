@@ -18,7 +18,7 @@ document
 document.getElementById("meet").innerHTML = `🍕 I'm currently working as a: 
                                               <ul class="jobList">
                                                 <li class="job">Full Stack Developer @<a href="https://tuchequera.com" target="_blank">${job1}</a> </li>
-                                                <li class="job">Business Intelligence Analyst @<a href="https://apshealth.com/" taget="_blank">${job2}</a>. </li>
+                                                <li class="job">Business Intelligence Analyst @<a href="https://apshealth.com/" taget="_blank">${job2}</a> </li>
                                               </ul>`
                                                
                                                ;
@@ -28,18 +28,18 @@ document.getElementById("meet").innerHTML = `🍕 I'm currently working as a:
 let imgs = [
   {
     name: "lin",
-    url: "linkedin.com/in/afrotonder/",
+    url: "https://www.linkedin.com/in/afrotonder/",
     title: "afrotonder@LinkedIn",
     alt: "LinkedIn Icon",
     source: "https://brandlogos.net/wp-content/uploads/2016/06/linkedin-logo-512x512.png" 
   },
-  {
-    name: "grm",
-    url: "https://angular-g2qjyv.stackblitz.io/",
-    title: "TheGripRepo",
-    alt: "Rob Zombies Halloween 2018 Pumpkin Icon",
-    source:  "https://trickortreatstudios.com/media/catalog/product/cache/1da4909b8e3ea5eea17a9fb4c6e4a516/h/a/halloween2018-enamelpin_1.png" 
-  },
+  // {
+  //   name: "grm",
+  //   url: "https://angular-g2qjyv.stackblitz.io/",
+  //   title: "TheGripRepo",
+  //   alt: "Rob Zombies Halloween 2018 Pumpkin Icon",
+  //   source:  "https://trickortreatstudios.com/media/catalog/product/cache/1da4909b8e3ea5eea17a9fb4c6e4a516/h/a/halloween2018-enamelpin_1.png" 
+  // },
   {
     name: "github",
     url: "https://github.com/afrotonder",
@@ -53,6 +53,13 @@ let imgs = [
     title: "afrotonder@Chess.com",
     alt: "Chess.com Icon",
     source: "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/SamCopeland/phpmeXx6V.png" 
+  },
+  {
+    name: "os",
+    url: "https://opensea.io/afrotonder",
+    title: "afrotonder@OpenSea.io",
+    alt: "OpenSea Icon",
+    source: "https://opensea.io/static/images/logos/opensea.svg" 
   },
   {
     name: "twt",
