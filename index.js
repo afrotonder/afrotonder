@@ -5,7 +5,13 @@ const handle = "afrotonder";
 const slogan = "Full-time problem solver";
 const job1 = "TuChequera.com";
 const job2 = "APS Health";
+const mobileHMU = `Check out my personal code repos, my portfolio and/or my work experiences to see
+                   if we can conjure up something together!`
 
+// set mobile HMU message
+document.getElementById("mobile-hmu").innerText = mobileHMU
+
+// set user name
 document.getElementById("uname").innerText = uname + "!";
 document
   .getElementById("avatar")
@@ -54,6 +60,13 @@ let imgs = [
     alt: "Chess.com Icon",
     source: "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/SamCopeland/phpmeXx6V.png" 
   },
+  // {
+  //   name: "chess",
+  //   url: "https://www.chess.com/member/afrotonder",
+  //   title: "afrotonder@Chess.com",
+  //   alt: "Chess.com Icon",
+  //   source: "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/SamCopeland/phpmeXx6V.png" 
+  // },
   {
     name: "os",
     url: "https://opensea.io/afrotonder",
