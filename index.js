@@ -54,11 +54,11 @@ let imgs = [
     source: "https://github.githubassets.com/images/modules/logos_page/Octocat.png" 
   },
   {
-    name: "chess",
-    url: "https://www.chess.com/member/afrotonder",
-    title: "afrotonder@Chess.com",
-    alt: "Chess.com Icon",
-    source: "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/SamCopeland/phpmeXx6V.png" 
+    name: "portfolio",
+    url: "https://tonder1.web.app",
+    title: "Portfolio",
+    alt: "Developer Portfolio",
+    source: "./images/tonder1.png" 
   },
   // {
   //   name: "chess",
