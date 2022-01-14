@@ -17,8 +17,8 @@ document
   .getElementById("avatar")
   .setAttribute(
     "src",
-    "https://scontent-sju1-1.xx.fbcdn.net/v/t1.6435-9/50887190_2300320363577374_8314854031319105536_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=KXuF4cUjkogAX_LyrPc&_nc_ht=scontent-sju1-1.xx&oh=65d5f58e208e64cf46733a421320b3a5&oe=61DBC289"
-  );
+    "https://lh3.googleusercontent.com/9hiYqr55ErGU1iRyohl_WjQkUXYSVUOI85dSwjyEdkXAUcQEO8YAMguW_RQN6EP3tSJ8ttPejK-u9h2NZzM5ItGcfoStfkmykrdegg=s100"
+    );
 
 
 document.getElementById("meet").innerHTML = `🍕 I'm currently working as a: 
