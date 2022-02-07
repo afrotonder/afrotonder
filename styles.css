@@ -1,9 +1,16 @@
 :root {
-  --bg:  #4D4646;
+  /* --bg:  #4D4646; */
   --mainColor: #7FCD91;
   --linkColor: #F5EAEA;
   --lightLinkColor: lightgreen ;
   --lightText: white ;
+
+
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
 }
 
 html {
@@ -303,7 +310,7 @@ ul {
 
 .footer {
   bottom: 0;
-  /* position: fixed; */
+  position: fixed;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
