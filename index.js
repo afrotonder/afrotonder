@@ -84,37 +84,19 @@ let imgs = [
 ];
 
 let tools = [
-  { name: "JS (ES6+)", source: "./images/js-icon.png"},
-  { name: "HTML", source: "./images/html-icon.png"},
-  { name: "CSS/SCSS", source: "./images/css-icon.png" },
-  { name: "Angular", source: "./images/angular-icon.png" },
+  { id: 'ionic', name: "Ionic", source: "./images/ionic-icon.png" },
+  { id: 'angular', name: "Angular", source: "./images/angular-icon.png" },
+  { id: 'js', name: "JS(ES6+)", source: "./images/js-icon.png"},
+  { id: 'ts', name: "TypeScript", source: "./images/ts-icon.png"},
+  { id: 'htmlIcon', name: "HTML", source: "./images/html-icon.png"},
+  { id: 'cssIcon', name: "CSS/SCSS", source: "./images/css-icon.png" },
   // { name: "Ionic", source: "./images/ionic.jpg" },
   // { name: "iOS", source: xcode_icon },
-  { name: "Ionic", source: "https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ionic-512.png" },
   // { name: "Android", source: android_icon },
   // { name: "Capacitor", source: "./images/capacitor-icon.png" },
-  { name: "Capacitor", source: "https://seeklogo.com/images/C/capacitor-logo-DF3634DD70-seeklogo.com.png" },
+  { id: 'capacitor', name: "Capacitor", source: "./images/capacitor-icon.png" },
 ];
 
-// set/ renderfooter
-for (let img of imgs) {
-  let elem = document.createElement("a");
-
-  elem.setAttribute("href", img.url);
-  elem.setAttribute("target", "_blank");
-  elem.setAttribute("class", "toolIcon");
-
-  elem.innerHTML =
-    `<img src=` +
-    img.source +
-    `  title=` +
-    img.title +
-    ` alt=` +
-    img.alt +
-    `/>`;
-
-  document.getElementById("social-icons").appendChild(elem);
-}
 
 // set/render tools
 for (let tool of tools) {
@@ -125,16 +107,37 @@ for (let tool of tools) {
   // elem.setAttribute("target", "_blank");
 
   elem.innerHTML =
-    `<img src=` +
-    tool.source +
-    `  title=` +
-    tool.name +
-    ` alt=` +
-    tool.name +
-    `/>`;
+    `<img id=${tool.id} 
+          class="toolImg"
+          src=${tool.source}  
+          title=${tool.name}
+          alt=${tool.name}
+    />`;
 
   document.getElementById("tools").appendChild(elem);
 }
+
+
+
+
+// set/ renderfooter
+for (let img of imgs) {
+  let elem = document.createElement("a");
+
+  elem.setAttribute("href", img.url);
+  elem.setAttribute("target", "_blank");
+  elem.setAttribute("class", "toolIcon");
+
+  elem.innerHTML =
+  `<img src=${img.source}  
+        title=${img.title}
+        alt=${img.alt}
+  />`;
+ 
+
+  document.getElementById("social-icons").appendChild(elem);
+}
+
 
 
 

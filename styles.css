@@ -64,6 +64,14 @@ ul {
   padding: 0;
 }
 
+#ionic {
+  width: 40px;
+}
+
+#angular {
+  width: 40px;
+}
+
 #uname {
   color: var(--lightText) ;
 }
@@ -77,6 +85,9 @@ ul {
   border: 3px solid var(--lightLinkColor);
 }
 
+.toolImg {
+  border-radius: 5px;
+}
 
 .dark {
   font-weight: bold;
