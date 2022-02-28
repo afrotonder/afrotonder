@@ -19,7 +19,7 @@ document
     "src",
     // "https://lh3.googleusercontent.com/9hiYqr55ErGU1iRyohl_WjQkUXYSVUOI85dSwjyEdkXAUcQEO8YAMguW_RQN6EP3tSJ8ttPejK-u9h2NZzM5ItGcfoStfkmykrdegg=s100"
     // "./images/avatar-work.png"
-    "./images/tonder.jpg"
+    "./images/tonder1.jpg"
 
     );
 
