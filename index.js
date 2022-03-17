@@ -61,7 +61,8 @@ let imgs = [
     url: "https://tonder1.web.app",
     title: "Portfolio",
     alt: "Developer Portfolio",
-    source: "./images/tonder1.png" 
+    source: "./images/2286.png"
+    // source: "./images/tonder1.png" 
   },
   // {
   //   name: "chess",
