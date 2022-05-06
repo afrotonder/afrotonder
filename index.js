@@ -58,7 +58,7 @@ let imgs = [
   },
   {
     name: "portfolio",
-    url: "https://tonder1.web.app",
+    url: "https://afrotonder.com",
     title: "Portfolio",
     alt: "Developer Portfolio",
     source: "./images/2286.png"
