@@ -1,10 +1,11 @@
 // ---------- SET AVATAR DATA ----------
-const uname = "Omar Rosado Ramirez";
-const sm_uname = "O. Rosado Ramirez";
+const uname = "Omar Rosado Ramírez";
+const sm_uname = "O. Rosado Ramírez";
 const handle = "afrotonder";
 const slogan = "Full-time problem solver";
 const job1 = "TuChequera.com";
 const job2 = "APS Health";
+// const job3 = " Freelance Web3 Developer";
 const mobileHMU = `Check out my personal code repos, my portfolio and/or my work experiences to see
                    if we can conjure up something together!`
 
@@ -26,8 +27,10 @@ document
 
 document.getElementById("meet").innerHTML = `🍕 I'm currently working as a: 
                                               <ul class="jobList">
-                                                <li class="job">Full Stack Developer @<a href="https://tuchequera.com" target="_blank">${job1}</a> </li>
                                                 <li class="job">Business Intelligence Analyst @<a href="https://apshealth.com/" taget="_blank">${job2}</a> </li>
+                                                <li class="job">Full Stack Developer @<a href="https://tuchequera.com" target="_blank">${job1}</a> </li>
+                                                <li class="job">Freelance Web3 Developer </li>
+
                                               </ul>`
                                                
                                                ;
@@ -64,6 +67,13 @@ let imgs = [
     source: "./images/2286.png"
     // source: "./images/tonder1.png" 
   },
+  {
+    name: "linktree",
+    url: "https://linktr.ee/afrotonder",
+    title: "afrotonder@LinkTree",
+    alt: "LinkTree Icon",
+    source: "./images/linktree.png" 
+  },
   // {
   //   name: "chess",
   //   url: "https://www.chess.com/member/afrotonder",
@@ -71,13 +81,13 @@ let imgs = [
   //   alt: "Chess.com Icon",
   //   source: "https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/SamCopeland/phpmeXx6V.png" 
   // },
-  {
-    name: "os",
-    url: "https://opensea.io/afrotonder",
-    title: "afrotonder@OpenSea.io",
-    alt: "OpenSea Icon",
-    source: "https://opensea.io/static/images/logos/opensea.svg" 
-  },
+  // {
+  //   name: "os",
+  //   url: "https://opensea.io/afrotonder",
+  //   title: "afrotonder@OpenSea.io",
+  //   alt: "OpenSea Icon",
+  //   source: "https://opensea.io/static/images/logos/opensea.svg" 
+  // },
   {
     name: "twt",
     url: "https://twitter.com/afrotonder",
@@ -90,7 +100,7 @@ let imgs = [
 let tools = [
   { id: 'ionic', name: "Ionic", source: "./images/ionic-icon.png" },
   { id: 'angular', name: "Angular", source: "./images/angular-icon.png" },
-  { id: 'js', name: "JS(ES6+)", source: "./images/js-icon.png"},
+  // { id: 'js', name: "JS(ES6+)", source: "./images/js-icon.png"},
   { id: 'ts', name: "TypeScript", source: "./images/ts-icon.png"},
   { id: 'htmlIcon', name: "HTML", source: "./images/html-icon.png"},
   { id: 'cssIcon', name: "CSS/SCSS", source: "./images/css-icon.png" },
@@ -99,6 +109,9 @@ let tools = [
   // { name: "Android", source: android_icon },
   // { name: "Capacitor", source: "./images/capacitor-icon.png" },
   { id: 'capacitor', name: "Capacitor", source: "./images/capacitor-icon.png" },
+    { id: 'firebase', name: "Firebase", source: "./images/firebase.png"},
+  { id: 'moralis', name: "MoralisWeb3SDK", source: "./images/moralis.png"},
+
 ];
 
 
