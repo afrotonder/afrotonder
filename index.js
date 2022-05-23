@@ -14,15 +14,15 @@ document.getElementById("mobile-hmu").innerText = mobileHMU
 
 // set user name
 document.getElementById("uname").innerText = uname + "!";
-document
-  .getElementById("avatar")
-  .setAttribute(
-    "src",
-    // "https://lh3.googleusercontent.com/9hiYqr55ErGU1iRyohl_WjQkUXYSVUOI85dSwjyEdkXAUcQEO8YAMguW_RQN6EP3tSJ8ttPejK-u9h2NZzM5ItGcfoStfkmykrdegg=s100"
-    // "./images/avatar-work.png"
-    "./images/tonder1.jpg"
+// document
+//   .getElementById("avatar")
+//   .setAttribute(
+//     "src",
+//     // "https://lh3.googleusercontent.com/9hiYqr55ErGU1iRyohl_WjQkUXYSVUOI85dSwjyEdkXAUcQEO8YAMguW_RQN6EP3tSJ8ttPejK-u9h2NZzM5ItGcfoStfkmykrdegg=s100"
+//     // "./images/avatar-work.png"
+//     "./images/tonder1.jpg"
 
-    );
+//     );
 
 
 document.getElementById("meet").innerHTML = `🍕 I'm currently working as a: 

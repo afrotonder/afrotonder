@@ -322,13 +322,36 @@ ul {
 
 .footer {
   bottom: 0;
-  position: fixed;
+  /* position: fixed; */
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   margin-top: 5%;
 
 }
+
+
+
+
+.hexPFP {
+  width: 200px;
+  display: inline-block;
+
+  filter: url('#goo');
+}
+
+.hexPFP::before {
+  content: "";
+  display: block;
+  /* background:currentColor; */
+  background: url('./images/tonder1.jpg');
+  background-position: center;
+  background-size: 100%;
+  padding-top: 86.6%; /* 100%*cos(30) */
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  /* https://stackoverflow.com/questions/24819717/how-to-make-a-curved-edge-hexagon-by-using-css/65504158#65504158 */
+}
+
 /* // --------------- KEYFRAMES --------------- */
 @keyframes shake {
   0% {
