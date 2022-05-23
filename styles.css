@@ -14,7 +14,7 @@
 }
 
 html {
-  cursor: url("/images/queen.png"), auto;
+  cursor: url("./images/queen.png"), auto;
   width: 99%;
   overflow-x: hidden;
 }
